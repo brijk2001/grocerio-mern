@@ -1,0 +1,52 @@
+.Order {
+  width: 340px;
+  border: 2px solid black;
+  padding: 30px;
+  height: fit-content + 90px;
+}
+.Order-items {
+  padding-left: 100px;
+  border: 2px solid black;
+  padding: 20px;
+  padding-left: 10px;
+  height: 200px;
+  overflow-y: scroll;
+}
+
+.amount {
+  font-size: 20px;
+  position: absolute;
+  margin-left: 200px;
+}
+
+.Orderss {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 30px;
+  margin-left: 9%;
+  row-gap: 30px;
+}
+
+.toggle img {
+  width: 40px;
+  height: 40px;
+}
+
+.toggle {
+  background-color: transparent;
+  border: none;
+  transition: all ease 1s;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.toggle:hover {
+  background: linear-gradient(45deg, #f3d34a, #6bbf59);
+}
+
+.toggleClass {
+  padding: 35px;
+  padding-left: 100px;
+  display: flex;
+  column-gap: 30px;
+}

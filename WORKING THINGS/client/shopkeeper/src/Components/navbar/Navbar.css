@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Long+Cang&family=Nunito&display=swap");
+
+@media only screen and (max-width: 584px) {
+  .Navbar-component-items {
+    display: none;
+  }
+}
+
+.main {
+  overflow: hidden;
+  top: 0;
+  left: 0;
+}
+
+.Navbar {
+  font-family: "Long Cang", "cursive";
+  font-family: "Nunito", sans-serif;
+  text-align: center;
+  padding-right: 20px;
+  left: 0;
+  height: 200px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 80px;
+
+  filter: drop-shadow(0 20px 20px black);
+}
+
+.Logo {
+  width: 5.6em;
+  padding-left: 25px;
+  float: left;
+  filter: drop-shadow(0px 5px 10px);
+  transition: width 0.3s ease;
+}
+
+.Logo:hover {
+  width: 6.5em;
+}
+.Navbar-component {
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  align-items: center;
+  z-index: 100;
+}
+
+.Navbar-component-items {
+  margin: 0;
+  padding: 30px;
+  padding-right: 10px;
+  display: flex;
+  overflow: hidden;
+}
+
+.Navbar-component-items li {
+  list-style-type: none;
+  margin-left: 10px;
+  float: right;
+  padding: 6px;
+  background: linear-gradient(45deg, #d0d710, orange);
+  border-radius: 30px;
+  border: solid 1px;
+  filter: drop-shadow(0px 5px 10px);
+}
+
+.Navbar-component-items a {
+  text-decoration: none;
+  padding: 0px 14px;
+  color: black;
+  transition: font-size 0.3s ease;
+}
+
+.Navbar-component-items a:hover,
+.Login a:hover {
+  color: white;
+  font-size: 20px;
+  filter: drop-shadow(0px 5px 10px);
+}
+
+.Login {
+  padding: 30px;
+}
+
+.Login a {
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+  background: linear-gradient(45deg, #d0d710, orange);
+  border-radius: 20px;
+  border: black solid 1px;
+  filter: drop-shadow(0px 5px 10px);
+  transition: font-size 0.3s ease;
+}
+
+.Backdrop {
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  z-index: 0;
+}
+
+.Backdrop:after {
+  display: block;
+  position: absolute;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0) 0,
+    #000 20px
+  );
+  content: "";
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0.8;
+}
+
+.scroll {
+  background-image: none;
+}
+
+.Navbar-component p {
+  position: absolute;
+  background-color: #8ac126fa;
+  left: 90%;
+  border-radius: 30px;
+  padding: 4px;
+  border: 2px solid;
+}

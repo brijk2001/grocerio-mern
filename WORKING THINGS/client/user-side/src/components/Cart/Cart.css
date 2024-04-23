@@ -1,0 +1,29 @@
+.list-item img {
+    width:10%;
+    border-radius: 30px;
+}
+
+
+.myCart {
+    width: 100%;
+}
+
+.Buy {
+    margin-top: 15px;
+    margin-left: 80%;
+    background: linear-gradient(45deg, #F3D34A, #6BBF59);
+    padding: 15px;
+    cursor: pointer;
+    border: none;
+    border-radius: 30px;
+    transition: all ease 0.3s;
+}
+
+.Buy:hover {
+    box-shadow: 0px 5px 10px;
+}
+
+.cart-items {
+    height: 350px;
+    overflow-y: scroll;
+}

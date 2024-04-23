@@ -1,0 +1,25 @@
+.shop {
+  display: flex;
+  align-items: center;
+  padding: 25px; 
+}
+
+.shop .location {
+  margin-left: auto;
+}
+
+.shop .location a {
+  background-color: #3498db;
+  padding: 15px 25px;
+  margin: 10px;
+  border-radius: 10px;
+  display: inline-block;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.shop .location a:hover {
+  background-color: #2980b9;
+}

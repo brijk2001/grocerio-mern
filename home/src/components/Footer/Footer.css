@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+
+body {
+  font-family: "Josefin Sans", sans-serif;
+  width: 100%;
+  height: auto;
+}
+
+.footer-table {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  padding: 50px;
+  bottom: 0;
+  background: linear-gradient(0deg, #8a8500 0%, #ffe68a 100%);
+}
+
+td {
+  padding: 10px;
+  vertical-align: top;
+}
+
+thead > td {
+  font-weight: bold;
+  /* border-bottom: 1px solid black; */
+}
+
+tfoot {
+  padding-top: 200px;
+}
+
+tfoot > td {
+  /* border-top: 1px solid black; */
+  padding-top: 50px;
+}
+
+.left-align {
+  text-align: left;
+  padding-left: 248px;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+.popup-account-content {
+  width: 3500px;
+}
+
+.footer a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+.phone-number {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+  border: none;
+}
